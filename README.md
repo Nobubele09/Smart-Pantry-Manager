@@ -100,7 +100,21 @@ Possible future improvements to Smart Pantry Manager include:
 * Enhancing accessibility and interface customisation.
 * Adding optional data backup and recovery features.
 
-## 12. Author Information
+## 12. Application Screens
+
+Smart Pantry Manager includes the following screens:
+
+* Home Screen:** Provides navigation to the main application features.
+* Pantry Screen:** Displays pantry ingredients, quantities, and expiry information.
+* Add/Edit Ingredient Screen:** Allows users to add new ingredients or update existing entries.
+* Suggested Recipes Screen:** Displays recipes that match the ingredients available in the pantry.
+* Recipe Details Screen:** Displays recipe ingredients and preparation instructions.
+* Settings Screen:** Allows users to save profile information and configure application preferences.
+
+The screens work together to provide a simple and organised pantry management experience.
+
+
+## 13. Author Information
 
 **Student Name:** Nobubele Everjoy Sibanda
 **Student Number:** 402313395

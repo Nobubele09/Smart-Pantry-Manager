@@ -53,7 +53,7 @@ The database contains the following tables:
 
 These tables support pantry management, persistent storage, and recipe matching.
 
-*Note: The table descriptions should match the actual database schema implemented in `DatabaseHelper.java`.*
+*Note: Ensure the table descriptions match the actual database schema implemented in `DatabaseHelper.java`.*
 
 ## 7. Recipe-Matching Logic
 
@@ -90,7 +90,17 @@ The following functionality has been tested during development:
 
 **GitHub Repository:** https://github.com/Nobubele09/Smart-Pantry-Manager
 
-## 11. Author Information
+## 11. Future Improvements
+
+Possible future improvements to Smart Pantry Manager include:
+
+* Adding notifications for ingredients approaching their expiry dates.
+* Introducing recipe categories and search functionality.
+* Improving recipe filtering options.
+* Enhancing accessibility and interface customisation.
+* Adding optional data backup and recovery features.
+
+## 12. Author Information
 
 **Student Name:** Nobubele Everjoy Sibanda
 **Student Number:** 402313395

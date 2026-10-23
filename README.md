@@ -39,25 +39,41 @@ The application stores pantry ingredients and recommends recipes based on their 
 
 SQLite was selected because it is integrated into Android and supports local data storage without requiring a separate database server.
 
-It allows pantry ingredients and recipe information to persist after the application is closed. SQLite also supports database operations needed to create, read, update, and delete records.
+It allows pantry ingredients and recipe information to persist after the application is closed. SQLite also supports the database operations needed to create, read, update, and delete records.
 
-## 6. Recipe-Matching Logic
+## 6. Database Structure
+
+The application uses SQLite to store pantry ingredients and recipe information.
+
+The database contains the following tables:
+
+* **Ingredients:** Stores ingredient IDs, names, quantities, units, and expiry dates.
+* **Recipes:** Stores recipe information, including names, descriptions, preparation times, and instructions.
+* **Recipe Ingredients:** Links recipes to their required ingredients and quantities.
+
+These tables support pantry management, persistent storage, and recipe matching.
+
+*Note: The table descriptions should match the actual database schema implemented in `DatabaseHelper.java`.*
+
+## 7. Recipe-Matching Logic
 
 The application compares each recipe's required ingredients and quantities against the ingredients stored in the pantry.
 
 A recipe is suggested only when all required ingredients are available in sufficient quantities. Recipes with missing ingredients or insufficient quantities are excluded from the suggestions.
 
-## 7. How to Run the Project
+This approach helps users identify recipes they can prepare with their current pantry supplies.
+
+## 8. How to Run the Project
 
 1. Install Android Studio.
-2. Clone or download this repository from GitHub.
+2. Clone or download the project from GitHub.
 3. Open the project in Android Studio.
 4. Allow Gradle to synchronise the project.
 5. Run the application using an Android emulator or a compatible Android device.
 
-If Android Studio requests additional SDK components, install the required components before running the application.
+If Android Studio requests additional Android SDK components, install the required components before running the application.
 
-## 8. Testing
+## 9. Testing
 
 The following functionality has been tested during development:
 
@@ -68,12 +84,13 @@ The following functionality has been tested during development:
 * Opening recipe details.
 * Saving profile information and settings.
 * Displaying feedback when no recipes match.
+* Validating ingredient information before saving.
 
-## 9. Project Repository
+## 10. Project Repository
 
-GitHub: https://github.com/Nobubele09/Smart-Pantry-Manager
+**GitHub Repository:** https://github.com/Nobubele09/Smart-Pantry-Manager
 
-## 10. Author
+## 11. Author Information
 
 **Student Name:** Nobubele Everjoy Sibanda
 **Student Number:** 402313395
